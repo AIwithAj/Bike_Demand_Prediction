@@ -1,1 +1,10 @@
 
+Linear Regression Model for Predicting Rental Bike Count:
+
+This project is aimed at predicting the required bike count for rental bikes at each hour to ensure a stable supply of bikes in urban cities. The prediction is done using a linear regression model that takes into account various factors that may affect the demand for rental bikes, such as time of day, weather conditions, and day of the week.
+
+The dataset used in this project contains information on the rental bike usage patterns over a period of time, and it has been preprocessed to remove any missing or irrelevant data. The dataset is then split into training and testing sets to evaluate the performance of the model.
+
+The linear regression model is trained on the training set using the features that are found to be most significant in affecting bike demand. The model is then tested on the testing set, and the performance is evaluated using various metrics such as mean squared error (MSE) and coefficient of determination (R-squared).
+
+The model can be used to predict the required bike count for each hour based on the input features, which can help rental bike companies ensure a stable supply of bikes for the public. The code and data used in this project are available in this repository, along with a detailed explanation of the methodology used and the results obtained.
